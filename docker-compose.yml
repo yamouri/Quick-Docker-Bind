@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  dns-server:
+    build: ./bind-dns
+    container_name: dns-server
+    ports:
+      - "53:53/tcp"
+      - "53:53/udp"
+    volumes:
+      - ./bind-dns/named.conf.options:/etc/bind/named.conf.options
+      - ./bind-dns/named.conf.local:/etc/bind/named.conf.local
+      - ./bind-dns/db.root:/etc/bind/db.root
+    restart: unless-stopped
