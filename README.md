@@ -14,12 +14,12 @@ To get the server up and running, you simply need to use Docker Compose. This se
 
 1. Clone this repository:
     ```bash
-    git clone https://github.com/yamouri/Quick-Docker-Bind-.git
+    git clone https://github.com/yamouri/Quick-Docker-Bind.git
     ```
 
 2. Navigate into the repository directory:
     ```bash
-    cd Quick-Docker-Bind-
+    cd Quick-Docker-Bind
     ```
 
 3. Start the DNS server using Docker Compose:
