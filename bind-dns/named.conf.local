@@ -1,4 +1,4 @@
-// named.conf.local
+// If a new zone need to be define
 
 //zone "." IN {
 //    type hint;
