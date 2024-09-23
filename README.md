@@ -31,12 +31,7 @@ That's it! Your Bind9 recursive DNS server is now running.
 
 ### Port Information
 
-- **Port 53 (UDP/TCP)**: This is the default port for DNS traffic. Bind9 will listen on this port, both for UDP and TCP connections. Ensure that port 53 is open in your firewall settings for the server to function properly.
-
-## Requirements
-
-- Docker
-- Docker Compose
+- **Port 53 (UDP/TCP)**: This is the default port for DNS traffic. Bind9 will listen on this port, both for UDP and TCP connections. Ensure that port 53 is open in your firewall settings if you want to connect from the outside of your local network.
 
 ## Additional Notes
 
